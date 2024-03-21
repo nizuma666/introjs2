@@ -10,12 +10,10 @@ let seleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
     return console.log(sortArray);
   }
 };
-//   console.log(found.sort());
-// };
 
 let dataArray = [20, 24, 12, 8, 10, 4];
-let nilaiAwal = 30;
-let nilaiAkhir = 40;
+let nilaiAwal = 32;
+let nilaiAkhir = 45;
 
 if (nilaiAwal < nilaiAkhir) {
   if (dataArray.length > 5) {
